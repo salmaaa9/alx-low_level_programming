@@ -6,7 +6,7 @@
  *Return: 1 (success)
  *        -1 on eror
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	int i = 0;
 

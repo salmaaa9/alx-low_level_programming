@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include "main.h"
 /**
  * print_alphabet - prints the charachters lowercased

@@ -1,7 +1,6 @@
-#include <unistd.h>
 #include "main.h"
 /**
- * print_alphabet prints the charachters lowercased
+ *print_alphabet - prints the charachters lowercased
  * using _putchar function
  *Return: 1 (success)
  *        -1 on eror

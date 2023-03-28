@@ -1,9 +1,24 @@
 #include "main.h"
 
 /**
- * swap_int - swaps the values of two integers
- *@a:a pointer to int
- *@b:a pointer to int
+ * rev_string - reverses the string
+ *@s:an array
  * Return :nothing
  */
+void rev_string(char *s)
+{
+	int i, j;
 
+	while (s[i])
+	{
+		i++;
+	}
+	char temp[i];
+
+	while (i--)
+	{
+		temp[j] = s[i];
+		j++;
+	}
+	s = temp;
+}

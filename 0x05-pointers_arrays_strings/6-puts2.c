@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *void puts2 - prints every other charachter
+ * puts2 - prints every other charachter
  *@str:an array
  * Return :nothing
  */

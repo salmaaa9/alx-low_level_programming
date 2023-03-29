@@ -4,8 +4,8 @@
  * _strcpy - copies a string to string
  *@dest:a pointer to string
  *@src:a pointer to string
- * Return : 1 a pointer to string
- *          
+ * return :( a pointer to string) success
+ *         (\0) when fail
  */
 
 char *_strcpy(char *dest, char *src)

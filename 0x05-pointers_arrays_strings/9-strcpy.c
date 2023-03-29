@@ -4,12 +4,19 @@
  * _strcpy - copies a string to string
  *@dest:a pointer to string
  *@src:a pointer to string
- * Return : a pointer to string
+ * Return : 1 a pointer to string
+ *          
  */
 
 char *_strcpy(char *dest, char *src)
 {
-	dest = src;
-	return dest;
+	int i = 0;
+
+	for (i = 0; src[i] != '\0'; i++)
+	{
+		dest[i] = src[i];
+	}
+	dest[i] = '\0';
+	return (dest);
 
 }

@@ -8,6 +8,7 @@
 char *leet(char *s)
 {
 	unsigned int i;
+	char *c=s;
 	char map[] = {'A', 'E', 'O', 'T', 'L'};
 	int x[] = {4, 3, 0, 7, 1};
 
@@ -20,5 +21,5 @@ char *leet(char *s)
 		}
 		s++;
 	}
-	return (s);
+	return (c);
 }

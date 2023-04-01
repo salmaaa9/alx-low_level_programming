@@ -13,12 +13,12 @@ char *leet(char *s)
 
 	while (*s)
 	{
-		for (i = 0; i < sizeof(map) / sizeof(char); i++)
+		for (i = 0; i < (sizeof(map) / sizeof(char)); i++)
 		{
 			if (s[i] == map[i] || s[i] == map[i] + 32)
 				s[i] = 48 + x[i];
 		}
-	s++;
+		s++;
 	}
 	return (s);
 }

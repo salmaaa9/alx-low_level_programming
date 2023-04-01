@@ -7,7 +7,7 @@
  */
 char *leet(char *s)
 {
-	int i;
+	unsigned int i;
 	char map[] = {'A', 'E', 'O', 'T', 'L'};
 	int x[] = {4, 3, 0, 7, 1};
 

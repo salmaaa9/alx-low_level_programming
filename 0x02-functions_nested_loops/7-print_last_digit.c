@@ -1,13 +1,20 @@
 #include "main.h"
 
 /**
- * _strncat - concatenates two strings till n
- *@dest:a string
- *@src:a string
+ * print_last_digit - prints the last digit
  *@n: an int
- * Return: concatened string
+ * Return: last digit
  */
 int print_last_digit(int n)
 {
-	printf("%d", n % 10);
+	if (n < 10)
+	{
+		printf("%d", (n % 10) * -1);
+		return ((n % 10) * -1);
+	}
+	else
+	{
+		printf("%d", n % 10);
+		return (n % 10);
+	}
 }

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_baur - make a clock
+ * jack_bauer - make a clock
  * Return: nothing
  */
 void jack_bauer(void)

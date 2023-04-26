@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _memset - copies n bytes from src to dest
- *@s:a string to be copied to
+ * _memcpy - copies n bytes from src to dest
+ *@dest:a string to be copied to
  *@src:A string to copy
  *@n:no of indecises
  * Return:a pointer to first string
